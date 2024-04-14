@@ -11,5 +11,4 @@ public interface Repository {
     void update(User user);
 
     Optional<User> get(long id);
-
 }

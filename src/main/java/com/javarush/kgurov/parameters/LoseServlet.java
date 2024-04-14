@@ -12,7 +12,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 
-
 @WebServlet(name = "LoseServlet", urlPatterns = "/lose")
 public class LoseServlet extends HttpServlet {
     private static final Logger logger = LogManager.getLogger(LoseServlet.class);

@@ -26,7 +26,6 @@ public class StartServlet extends HttpServlet {
         logger.info("Get to /start from {}", req.getRemoteAddr());
         req.getRequestDispatcher(START_PAGE_PATH).forward(req, resp);
     }
-
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         logger.info("Post to /start from {}", req.getRemoteAddr());

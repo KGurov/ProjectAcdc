@@ -68,4 +68,5 @@
     <p>Curr score: ${sessionScope.get("score")}</p>
 </div>
 </body>
+
 </html>

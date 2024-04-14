@@ -20,6 +20,7 @@ import java.io.IOException;
 public class QuestServlet extends HttpServlet {
 
     private final Service userService = UserService.getInstance();
+
     private static final Logger logger = LogManager.getLogger(QuestServlet.class);
 
     @Override

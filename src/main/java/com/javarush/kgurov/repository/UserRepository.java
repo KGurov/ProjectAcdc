@@ -25,7 +25,6 @@ public class UserRepository implements Repository {
         userMap.put(user.getId(), user);
     }
 
-
     @Override
     public Optional<User> get(long id) {
         return Optional.ofNullable(userMap.get(id));
