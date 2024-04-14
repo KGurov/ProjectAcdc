@@ -22,6 +22,7 @@ public class WinServlet extends HttpServlet {
         logger.info("Get to /win from {}", req.getRemoteAddr());
         req.getRequestDispatcher(WIN_PAGE_PATH).forward(req, resp);
     }
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         HttpSession session = req.getSession();
