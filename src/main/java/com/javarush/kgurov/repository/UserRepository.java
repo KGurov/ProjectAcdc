@@ -2,7 +2,6 @@ package com.javarush.kgurov.repository;
 
 import com.javarush.kgurov.users.User;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
