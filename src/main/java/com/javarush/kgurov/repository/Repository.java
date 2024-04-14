@@ -11,10 +11,6 @@ public interface Repository {
 
     void update(User user);
 
-    void delete(User user);
-
-    Collection<User> getAll();
-
     Optional<User> get(long id);
 
 }

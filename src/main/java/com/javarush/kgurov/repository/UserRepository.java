@@ -26,15 +26,6 @@ public class UserRepository implements Repository {
         userMap.put(user.getId(), user);
     }
 
-    @Override
-    public void delete(User user) {
-        userMap.remove(user.getId());
-    }
-
-    @Override
-    public Collection<User> getAll() {
-        return userMap.values();
-    }
 
     @Override
     public Optional<User> get(long id) {
